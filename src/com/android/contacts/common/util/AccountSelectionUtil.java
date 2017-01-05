@@ -112,10 +112,10 @@ public class AccountSelectionUtil {
         return getSelectAccountDialog(activity, resId, onClickListener, null);
     }
 
-    public static Dialog getSelectAccountDialog(Context context, int resId,
+    public static Dialog getSelectAccountDialog(Activity activity, int resId,
             DialogInterface.OnClickListener onClickListener,
             DialogInterface.OnCancelListener onCancelListener) {
-        return getSelectAccountDialog(context, resId, onClickListener,
+        return getSelectAccountDialog(activity, resId, onClickListener,
             onCancelListener, true);
     }
 
